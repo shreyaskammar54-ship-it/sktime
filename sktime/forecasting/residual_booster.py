@@ -50,8 +50,8 @@ class ResidualBoostingForecaster(BaseForecaster):
     residual_forecaster : sktime forecaster
         Model trained on the base model's in-sample residuals.
 
-    Example
-    -------
+    Examples
+    --------
     >>> from sktime.datasets import load_longley
     >>> from sktime.forecasting.residual_booster import ResidualBoostingForecaster
     >>> from sktime.forecasting.naive import NaiveForecaster
